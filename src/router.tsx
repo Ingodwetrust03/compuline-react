@@ -26,4 +26,4 @@ export const router = createBrowserRouter([
         ],
     },
 
-], {basename:'/compuline'})
+], {basename:'/compuline-react'})
