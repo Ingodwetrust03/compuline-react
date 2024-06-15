@@ -24,10 +24,6 @@ export const router = createBrowserRouter([
             {path: '/contacts', element: <Contacts />},
             {path: '*', element: <NotFound />}
         ],
-    },
-    {
-        path: '*',
-        element: <NotFound />
     }
 
 ], {basename:'/compuline-react'})
