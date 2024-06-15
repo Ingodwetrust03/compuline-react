@@ -25,5 +25,9 @@ export const router = createBrowserRouter([
             {path: '*', element: <NotFound />}
         ],
     },
+    {
+        path: '*',
+        element: <NotFound />
+    }
 
 ], {basename:'/compuline-react'})
